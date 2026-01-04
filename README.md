@@ -76,7 +76,7 @@ Raw sensor data often contains "magnitude" noise caused by drift. [cite_start]We
 └── requirements.txt                 # Dependencies
 
 
-📊 Results Summary
+##📊 Results Summary
 Baseline Model: Performance drops significantly on Batch 10 due to drift. (기존 모델은 센서 노후화 시 성능 급락) 
 
 Feature Engineering: Improves RMSE and stability on aged data. (특징 공학 적용 시 노후 데이터에서도 성능 개선)
