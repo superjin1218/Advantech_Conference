@@ -55,6 +55,23 @@ Raw sensor data often contains "magnitude" noise caused by drift. [cite_start]We
 
 ---
 
+##📊 Results Summary
+Baseline Model: Performance drops significantly on Batch 10 due to drift. (기존 모델은 센서 노후화 시 성능 급락) 
+
+Feature Engineering: Improves RMSE and stability on aged data. (특징 공학 적용 시 노후 데이터에서도 성능 개선)
+
+DANN Model: Successfully aligns domains, achieving high classification accuracy on unseen batches. (DANN 적용 시 배치 간 차이 제거 및 높은 정확도 달성)
+
+👥 Team (팀원)- Computer Science
+
+Jinwoo Jo (조진우) -팀장(Leader)
+
+Taeyong Lee (이태용) 
+
+Dongchul Ahn (안동철)
+
+---
+
 ## 📂 Repository Structure
 
 ```bash
@@ -76,17 +93,3 @@ Raw sensor data often contains "magnitude" noise caused by drift. [cite_start]We
 └── requirements.txt                 # Dependencies
 
 
-##📊 Results Summary
-Baseline Model: Performance drops significantly on Batch 10 due to drift. (기존 모델은 센서 노후화 시 성능 급락) 
-
-Feature Engineering: Improves RMSE and stability on aged data. (특징 공학 적용 시 노후 데이터에서도 성능 개선)
-
-DANN Model: Successfully aligns domains, achieving high classification accuracy on unseen batches. (DANN 적용 시 배치 간 차이 제거 및 높은 정확도 달성)
-
-👥 Team (팀원)- Computer Science
-
-Jinwoo Jo (조진우) -팀장(Leader)
-
-Taeyong Lee (이태용) 
-
-Dongchul Ahn (안동철)
